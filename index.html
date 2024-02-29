@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eight Stars</title>
+    <link rel="stylesheet" href="files/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <div id="intro bg-[#F4F4EF] shadow-md pb-5  ">
+        <div class="flex flex-row justify-between items-center p-1  bg-[#F4F4EF] " >
+                    <div class="flex flex-row items-center">
+                        <img src="./assets/united-kingdom.png"  class="w-7 sm:w-10 md:w-15 lg:w-10 " alt="united-kingdom">
+                        <p dir="ltr" class="ms-2 text-xs sm:text-lg md:text-lg lg:text-lg"  >EN</p>
+                        <p dir="ltr" class="hidden ms-4 lg:inline sm:text-sm md:text-lg lg:text-lg">BECOME A PARTNER COMPANY</p>
+                        <img src="./assets/caret-down-solid.svg" width="4px" height="4px" dir="ltr"  class="mt-2 ms-1" alt="">
+                    </div>
+                    <div id="center">
+                        <img src="./assets/Only Logo .png" class="w-10 sm:w-15 md:w-20 lg:w-25" alt="">
+                    </div>
+                    <div class="flex flex-row gap-2 ">
+                        <input type="text" id="username" name="username" class=" hidden lg:inline p-0.5 invisible sm:visible lg:visible" placeholder="NEAR">
+                        <img src="./assets/user.png" width="34px" height="34px" class="w-7 sm:w-10 md:w-15 lg:w-10" alt="">
+                        <img src="./assets/shopping-cart.png" width="34px"  height="34px"  class="w-7 sm:w-10 md:w-15 lg:w-10" alt="">
+                        <hr class="hr-line">
+                    </div>
+        </div>
+
+        <div  class=" bg-[#F4F4EF]">
+              <svg id="nav-open" xmlns="http://www.w3.org/2000/svg" class="flex bg-[#F4F4EF] flex lg:hidden md:size-12" width="34" height="34" fill="currentColor" class="bi bi-text-indent-left" viewBox="0 0 16 16">
+                <path d="M2 3.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m.646 2.146a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L4.293 8 2.646 6.354a.5.5 0 0 1 0-.708M7 6.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m0 3a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m-5 3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
+              </svg>
+            </span>
+            <ul class=" pt-1 hidden lg:flex flex gap-6 flex-col lg:flex-row lg:gap-7 lg:text-5xl lg:items-center lg:justify-center bg-[#F4F4EF] p-1 text-center" id="nav-items">
+                <li class="mr-6 lg:mr-3">
+                  <a class="text-black-500 text-2xl lg:text-lg hover:gray-400" href="#">DIAGNOSTICS </a>
+                </li>
+                <li class="mr-6 lg:mr-3">
+                  <a class = "text-black-500 text-2xl lg:text-lg" href="#">PARADONTOLOGY</a>
+                </li>
+                <li class="mr-6 lg:mr-3">
+                  <a class="text-black-500 text-2xl lg:text-lg" href="#">CONSERVATIVE DENTISTRY</a>
+                </li>
+                <li class="mr-6 lg:mr-3">
+                  <a class="text-black-500  text-2xl lg:text-lg" href="#">EXTRACTION</a>
+                </li>
+                <li class="mr-6 lg:mr-3">
+                    <a class="text-black-500 text-2xl lg:text-lg" href="#">DENTAL SURGERY</a>
+                </li>
+                <li class="mr-6 lg:mr-3">
+                    <a class="text-black-500 text-2xl lg:text-lg" href="#">IMPLANTOLOGY</a>
+                </li>
+                <li class="mr-6 lg:mr-3">
+                    <a class="text-black-500 text-2xl lg:text-lg" href="#">MICROSURGERY</a>
+                </li>
+
+                <span class="absolute lg:hidden left-2 bottom-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="nav-close" width="16" height="16" fill="currentColor" class="bi bi-x-lg md:size-12" viewBox="0 0 16 16">
+                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                      </svg>
+                  </span>
+
+              </ul>
+        </div>
+    </div>
+
+    <div id="background" class="background ">
+        <div class="bg-fixed w-full grid grid-cols-1 xl:grid-cols-4 text-center items-center  justify-center  h-screen bg-cover bg-center relative"  style="background-image: url(assets/ds.jpg)">
+            <div class=" flex flex-col items-center xl:col-span-3 xl:mb-4 lg:w-8/12">
+                <h1 dir="rtl" class="Eight-font text-5xl md:text-7xl lg:text-8xl items-center leading-8  md:m-0 md:leading-10 lg:leading-10 font-bold lg:mb-16 xl:mb-8 text-right">Eight Star <br> <span class="text-2xl font-light dantal">DENTAL</span></h1>
+                <p class="text-xs md:text-xl  items-center text-center my-6 w-80 md:w-9/12 lg:mb-20 ">Eight Stars has a full-cycle production plant, where the creation of tool begins with the preparation steel bar ends with the packaging of the finished product.</p>
+                <button type="button" class="text-white rounded-t-lg rounded-bl-lg my-6 bg-gradient-to-r  bg-[#2B2F44] to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-slate-300 dark:focus:ring-slate-800 shadow-lg shadow-slate-200 dark:shadow-lg dark:shadow-slate-800/80 font-medium  text-sm lg:text-lg px-10 md:px-16 lg:px-14 py-3 md:py-5 text-center me-2 mb-2 xl:mb-52">View Product</button>
+
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="pr-container mx-10 sm-14 md:mx-20">
+            <div class="inline-flex items-center justify-center w-full">
+                <hr class="w-full h-1 my-8 bg-[#2B2F44] border-0 bg-[#2B2F44]">
+                <span class="absolute px-3 text-center pt-6 text-black-900 -translate-x-1/2 bg-white left-1/2 dark:text-white dark:bg-gray-900">NEW ITEMS <br> SEE ALL</span>
+            </div>
+            <h6 class="text-center	"></h6>
+    </div>
+
+    <div id="container" class="container-product grid grid-cols-1 lg:mx-20 sm:grid-cols-2 my-8  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4  w-100 m-4">
+        <!-- dont change the code  -->
+
+    </div>
+
+    <div class="pr-container mx-10 sm-14 md:mx-20">
+        <div class="inline-flex items-center justify-center w-full">
+            <hr class="w-full h-1 my-8 bg-[#2B2F44] border-0 bg-[#2B2F44]">
+            <span class="absolute px-3 text-center text-black-900 -translate-x-1/2 bg-white left-1/2 dark:text-white dark:bg-gray-900">LETEST ITEMS</span>
+        </div>
+        <h6 class="text-center	"></h6>
+    </div>
+
+    <div id="LETEST" class="container-product grid grid-cols-1 lg:mx-20 sm:grid-cols-2 my-8  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4  w-100 m-4">
+        <!-- dont change the code  -->
+
+    </div>
+
+
+    <footer class="bg-[#2B2F44] min-h-80 sm:min-h-96">
+
+    </footer>
+
+    
+    <script src="files/index.js"></script>
+</body>
+</html>
